@@ -1,0 +1,13 @@
+<div class="container">
+    <%= form_for  Card.new do |card| %>
+        <div class="mb-3">
+            <label for="nome" class="form-label">Nome</label>
+            <input type="text" name="card[nome]" class="form-control" id="nome">
+        </div>
+        <div class="mb-3">
+            <label for="descricao" class="form-label">Descricao</label>
+            <textarea class="form-control" id="descricao" name="card[descricao]" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-info">Criar</button>
+    <%end%>
+</div>

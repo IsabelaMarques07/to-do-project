@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row g-2">
+    <% todosCards = Card.all%>
+    <% todosCards.each do |card|%>
+        <div class="col-6">
+            <div class="p-3 border bg-info d-flex justify-content-between">
+                <%= card.nome%>
+                <%= button_to "", card, method: :delete, class: "btn-close"%>
+            </div>
+            <div class="p-3 border bg-light">
+                <%= card.descricao %>
+            </div>
+        </div>
+    <% end %>
+  </div>
+</div>
