@@ -1,24 +1,15 @@
-# README
+# ToDo Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Projeto de cards To-Do criado em Ruby On Rails para treinar o desenvolvimento com a linguagem.
 
-Things you may want to cover:
+## Tecnologias utilizadas
+* HTML
+* Bootstrap
+* Ruby On Rails
 
-* Ruby version
+## Telas do projeto
+#### Lista de cards criados
+<img src="https://user-images.githubusercontent.com/61291155/158086334-c7bba5c2-439b-4b98-b559-013c3a7d93f6.png">
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### Formulário de criação de cards
+<img src="https://user-images.githubusercontent.com/61291155/158086526-7004247c-1d5e-4c7a-890f-475ff9fba083.png">
